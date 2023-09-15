@@ -18,7 +18,7 @@ public class BlockEntityRender1024Client implements ClientModInitializer {
         BlockEntityRendererFactories.register(BlockEntityType.MOB_SPAWNER, RendererList.MobSpawnerBlockEntityCustom::new);
         BlockEntityRendererFactories.register(BlockEntityType.PISTON, RendererList.PistonBlockEntityCustom::new);
         BlockEntityRendererFactories.register(BlockEntityType.CHEST, RendererList.ChestBlockEntityCustom::new);
-        BlockEntityRendererFactories.register(BlockEntityType.ENDER_CHEST, RendererList.ChestBlockEntityCustom::new);
+        BlockEntityRendererFactories.register(BlockEntityType.ENDER_CHEST, RendererList.EnderChestBlockEntityCustom::new);
         BlockEntityRendererFactories.register(BlockEntityType.TRAPPED_CHEST, RendererList.ChestBlockEntityCustom::new);
         BlockEntityRendererFactories.register(BlockEntityType.ENCHANTING_TABLE, RendererList.EnchantingTableBlockEntityCustom::new);
         BlockEntityRendererFactories.register(BlockEntityType.LECTERN, RendererList.LecternBlockEntityCustom::new);

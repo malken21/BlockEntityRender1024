@@ -2,6 +2,7 @@ package marumasa.aaa_block_entity_render1024.client;
 
 import net.minecraft.block.entity.ChestBlockEntity;
 import net.minecraft.block.entity.EndPortalBlockEntity;
+import net.minecraft.block.entity.EnderChestBlockEntity;
 import net.minecraft.client.render.block.entity.*;
 
 public class RendererList {
@@ -34,6 +35,12 @@ public class RendererList {
 
     public static class ChestBlockEntityCustom extends ChestBlockEntityRenderer<ChestBlockEntity> {
         public ChestBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
+            super(ctx);
+        }
+    }
+
+    public static class EnderChestBlockEntityCustom extends ChestBlockEntityRenderer<EnderChestBlockEntity> {
+        public EnderChestBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
     }
