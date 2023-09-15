@@ -13,11 +13,21 @@ public class RendererList {
         public SignBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class HangingSignBlockEntityCustom extends HangingSignBlockEntityRenderer {
         public HangingSignBlockEntityCustom(BlockEntityRendererFactory.Context context) {
             super(context);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -25,11 +35,21 @@ public class RendererList {
         public MobSpawnerBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class PistonBlockEntityCustom extends PistonBlockEntityRenderer {
         public PistonBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -37,11 +57,21 @@ public class RendererList {
         public ChestBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class EnderChestBlockEntityCustom extends ChestBlockEntityRenderer<EnderChestBlockEntity> {
         public EnderChestBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -49,11 +79,21 @@ public class RendererList {
         public EnchantingTableBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class LecternBlockEntityCustom extends LecternBlockEntityRenderer {
         public LecternBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -61,11 +101,21 @@ public class RendererList {
         public EndPortalBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class EndGatewayBlockEntityCustom extends EndGatewayBlockEntityRenderer {
         public EndGatewayBlockEntityCustom(BlockEntityRendererFactory.Context context) {
             super(context);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -73,11 +123,21 @@ public class RendererList {
         public BeaconBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class SkullBlockEntityCustom extends SkullBlockEntityRenderer {
         public SkullBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -85,11 +145,21 @@ public class RendererList {
         public BannerBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class StructureBlockBlockEntityCustom extends StructureBlockBlockEntityRenderer {
         public StructureBlockBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -97,11 +167,21 @@ public class RendererList {
         public ShulkerBoxBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class BedBlockEntityCustom extends BedBlockEntityRenderer {
         public BedBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -109,11 +189,21 @@ public class RendererList {
         public ConduitBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class BellBlockEntityCustom extends BellBlockEntityRenderer {
         public BellBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 
@@ -121,17 +211,32 @@ public class RendererList {
         public CampfireBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
             super(ctx);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class BrushableBlockEntityCustom extends BrushableBlockEntityRenderer {
         public BrushableBlockEntityCustom(BlockEntityRendererFactory.Context context) {
             super(context);
         }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
     }
 
     public static class DecoratedPotBlockEntityCustom extends DecoratedPotBlockEntityRenderer {
         public DecoratedPotBlockEntityCustom(BlockEntityRendererFactory.Context context) {
             super(context);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
         }
     }
 }
