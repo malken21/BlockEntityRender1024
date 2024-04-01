@@ -239,4 +239,15 @@ public class RendererList {
             return Distance;
         }
     }
+
+    public static class TrialSpawnerBlockEntityCustom extends TrialSpawnerBlockEntityRenderer {
+        public TrialSpawnerBlockEntityCustom(BlockEntityRendererFactory.Context context) {
+            super(context);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
+    }
 }
