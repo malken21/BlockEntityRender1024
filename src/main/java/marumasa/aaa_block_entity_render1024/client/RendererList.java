@@ -250,4 +250,15 @@ public class RendererList {
             return Distance;
         }
     }
+
+    public static class VaultBlockEntityCustom extends VaultBlockEntityRenderer {
+        public VaultBlockEntityCustom(BlockEntityRendererFactory.Context context) {
+            super(context);
+        }
+
+        @Override
+        public int getRenderDistance() {
+            return Distance;
+        }
+    }
 }
