@@ -1,0 +1,6 @@
+{
+  "key.categories.aaa_block_entity_render1024": "BlockEntityRender1024",
+  "key.aaa_block_entity_render1024.change_distance": "表示距離変更",
+  "text.aaa_block_entity_render1024.change_distance.default": "ブロックエンティティの表示距離を§eデフォルト§rに変更",
+  "text.aaa_block_entity_render1024.change_distance.1024": "ブロックエンティティの表示距離を§a1024§rに変更"
+}

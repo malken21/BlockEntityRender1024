@@ -7,7 +7,7 @@ import net.minecraft.client.render.block.entity.*;
 
 public class RendererList {
 
-    final static int Distance = 1024;
+    static int Distance = 1024;
 
     public static class SignBlockEntityCustom extends SignBlockEntityRenderer {
         public SignBlockEntityCustom(BlockEntityRendererFactory.Context ctx) {
@@ -16,7 +16,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -27,7 +27,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -38,7 +38,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -49,7 +49,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -60,7 +60,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -71,7 +71,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -82,7 +82,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -93,7 +93,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -104,7 +104,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -115,7 +115,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -126,7 +126,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -137,7 +137,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -148,7 +148,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -159,7 +159,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -170,7 +170,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -181,7 +181,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -192,7 +192,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -203,7 +203,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -214,7 +214,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -225,7 +225,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -236,7 +236,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -247,7 +247,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 
@@ -258,7 +258,7 @@ public class RendererList {
 
         @Override
         public int getRenderDistance() {
-            return Distance;
+            return Distance > 0 ? Distance : super.getRenderDistance();
         }
     }
 }

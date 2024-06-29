@@ -1,0 +1,6 @@
+{
+  "key.categories.aaa_block_entity_render1024": "BlockEntityRender1024",
+  "key.aaa_block_entity_render1024.change_distance": "Change display distance",
+  "text.aaa_block_entity_render1024.change_distance.default": "Changed block entity display distance to default",
+  "text.aaa_block_entity_render1024.change_distance.1024": "Changed block entity display distance to 1024"
+}

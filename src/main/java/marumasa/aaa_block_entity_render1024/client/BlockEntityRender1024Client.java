@@ -16,6 +16,7 @@ public class BlockEntityRender1024Client implements ClientModInitializer {
      */
     @Override
     public void onInitializeClient() {
+        KeyBind.register();
         register(BlockEntityType.SIGN, SignBlockEntityCustom::new);
         register(BlockEntityType.HANGING_SIGN, HangingSignBlockEntityCustom::new);
         register(BlockEntityType.MOB_SPAWNER, MobSpawnerBlockEntityCustom::new);
