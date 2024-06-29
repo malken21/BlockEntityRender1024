@@ -10,6 +10,6 @@ V キーを押すとブロックエンティティの表示距離をデフォル
 
 ## 前提環境
 
-- Minecraft **1.20.5**
+- Minecraft **1.20.6**
 - [Fabric Loader](https://fabricmc.net/use/installer/) 0.15.11 以降
-- [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) 0.97.8 以降
+- [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) 0.100.4 以降
