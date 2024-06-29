@@ -7,7 +7,6 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/aaa_block_entity_render1024/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -17,9 +16,6 @@
       "marumasa.aaa_block_entity_render1024.BlockEntityRender1024"
     ]
   },
-  "mixins": [
-    "aaa_block_entity_render1024.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
